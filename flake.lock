@@ -3,9 +3,11 @@
     "docopt": {
       "inputs": {
         "flakeNimbleLib": [
+          "huenim-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "huenim-master",
           "nixpkgs"
         ],
         "regex": "regex",
@@ -13,11 +15,11 @@
       },
       "locked": {
         "dir": "v0_6_8",
-        "lastModified": 1652366445,
+        "lastModified": 1648428548,
         "narHash": "sha256-MYw3J6Hg3j9ntP3qkVAu/vYRgzCBgKL62D2dRL75Ot4=",
         "owner": "nim-nix-pkgs",
         "repo": "docopt",
-        "rev": "1cf26676df8ca638e636387a76622d64dcca19c7",
+        "rev": "b3b8b4a5c53c5bed4a848e6b3ebaa0b2ab9070f3",
         "type": "github"
       },
       "original": {
@@ -49,6 +51,34 @@
         "type": "github"
       }
     },
+    "huenim-master": {
+      "inputs": {
+        "docopt": "docopt",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-huenim-master": "src-huenim-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1650757811,
+        "narHash": "sha256-qw6z7Gmh1/6cNzFvQGgFM1zoO4F9K01RzFp6iWMP/b8=",
+        "owner": "nim-nix-pkgs",
+        "repo": "huenim",
+        "rev": "acf8b70a56c363dc62ed382fa18d321f10719659",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "huenim",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 0,
@@ -64,10 +94,12 @@
     "regex": {
       "inputs": {
         "flakeNimbleLib": [
+          "huenim-master",
           "docopt",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "huenim-master",
           "docopt",
           "nixpkgs"
         ],
@@ -93,10 +125,9 @@
     },
     "root": {
       "inputs": {
-        "docopt": "docopt",
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "src-huenim-master": "src-huenim-master"
+        "huenim-master": "huenim-master",
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-docopt-v0_6_8": {
@@ -170,11 +201,13 @@
     "unicodedb": {
       "inputs": {
         "flakeNimbleLib": [
+          "huenim-master",
           "docopt",
           "regex",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "huenim-master",
           "docopt",
           "regex",
           "nixpkgs"
