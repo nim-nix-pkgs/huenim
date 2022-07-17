@@ -64,11 +64,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1657154441,
-        "narHash": "sha256-Hb1Mmxiq3FBXbc31blx83lUmI2oqlanzho0AW5r9KUo=",
+        "lastModified": 1658019548,
+        "narHash": "sha256-ZW63P5jlxYIBJcU5iwk9hYUCzblIaxkemoWtYJHYdbs=",
         "owner": "nim-nix-pkgs",
         "repo": "huenim",
-        "rev": "2879db057d17de2183c5f20fbbb1f69569aaa275",
+        "rev": "303af896a4d37df4c2a4ee558e92ba47386297e5",
         "type": "github"
       },
       "original": {
